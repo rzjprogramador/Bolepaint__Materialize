@@ -1,0 +1,33 @@
+
+$dark: #333;
+$light: #f2f2f2;
+
+
+$primary-color: #7159c1;
+$second-color: #9c2da7;
+$third-color: #c8d146;
+
+
+body {
+    background-color: $light;
+    color: set-text-color($light);   
+}
+
+.flexCenter {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+
+    background-color: yellow;
+    font-size: 1rem;
+}
+//FUNCAO MUDAR COR 
+@function set-text-color($color) {
+    @if lightness($color) > 70 {
+        @return $dark;
+    }
+    @else {
+        @return #f2f2f2;
+    }
+}
+.item {}
