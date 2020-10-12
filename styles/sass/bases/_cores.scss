@@ -1,34 +1,75 @@
-//====================================================
 
-$dark: #333;
-$light: #f2f2f2;
-
-//====================================================
-
-$primary-color: #7159c1;
-$second-color: #9c2da7;
-$third-color: #c8d146;
-
-//====================================================
-
-//Cores Sistema
 :root {
-    --primary: #007bff;
-    --secondary: #6c757d;
-    --success: #28a745;
-    --info: #17a2b8;
-    --warning: #ffc107;
-    --danger: #dc3545;
-  }
-
-  // _function--color-muda cor do texto de acordo com primary color
-  
-  @function set-text-color($color) {
-    @if lightness($color) > 70 {
-        @return $dark;
-    }
-    @else {
-        @return #f2f2f2;
-    }
+    --body-bg: #fafafa;
+    --body-color: #555;
+    --link-color: #222;
+    --link-color-hover: #ec5840;
 }
- 
+
+.dark-mode:root {
+    --body-bg: #212529;
+    --body-color: #899095;
+    --link-color: #dee2e6;
+    --link-color-hover: #3cc368;
+}
+
+body {
+    background-color: var(--body-bg);
+    color: var(--body-color);
+
+}
+
+a {
+    color: var(--link-color);
+
+    &:hover {
+        color: var(--link-color-hover);
+
+    }
+
+}
+
+//========== INPUT CHECK BOX --THEME MODE ======
+
+input[type=checkbox]{
+    height: 0;
+    width: 0;
+    visibility: hidden;
+}
+
+label {
+    cursor: pointer;
+    text-indent: -9999px;
+    width: 52px;
+    height: 27px;
+    background: grey;
+    float: right;
+    border-radius: 100px;
+    position: relative;
+}
+
+label::after{
+    content: '';
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 90px;
+    transition: 0.3s;
+}
+
+input:checked + label {
+    background-color: var(--color-headings);
+}
+
+input:checked + label::after {
+    left: calc(100% - 5px);
+    transform: translateX(-100%);
+}
+
+label:active:after {
+    width: 45px;
+}
+
