@@ -1,0 +1,34 @@
+//====================================================
+
+$dark: #333;
+$light: #f2f2f2;
+
+//====================================================
+
+$primary-color: #7159c1;
+$second-color: #9c2da7;
+$third-color: #c8d146;
+
+//====================================================
+
+//Cores Sistema
+:root {
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+  }
+
+  // _function--color
+  
+  @function set-text-color($color) {
+    @if lightness($color) > 70 {
+        @return $dark;
+    }
+    @else {
+        @return #f2f2f2;
+    }
+}
+ 

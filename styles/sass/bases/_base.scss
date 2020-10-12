@@ -1,0 +1,9 @@
+@import "./cores";
+
+
+
+body {
+    background-color: $light;
+    color: set-text-color($light);   
+}
+

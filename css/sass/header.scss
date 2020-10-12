@@ -1,8 +1,0 @@
-
-@import 'base';
-
-header {
-    @extend .flexCenter;
-    color: set-text-color($primary-color);
-    background-color: $primary-color;
-}

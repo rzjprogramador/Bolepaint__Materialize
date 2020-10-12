@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "global.scss",
+        "_buttons.scss",
+        "_carrossel.scss"
+    ],
+    "names": [],
+    "file": "global.css"
+}
