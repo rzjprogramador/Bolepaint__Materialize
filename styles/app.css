@@ -1,11 +1,82 @@
-@import url(/home/rzj/appp/GITS/Bolepaint__Base--Sass--Css-main/styles/sass/externos/frameworks/bootstrap.css);
+@charset "UTF-8";
+@import url(/home/rzj/appp/GITS/Bolepaint__Base--Sass--Css/styles/sass/externos/frameworks/bootstrap.css);
 @import url("http://fonts.googleapis.com/css?family=Open Sans");
-* {
+body {
   padding: 0;
   margin: 0;
   vertical-align: baseline;
   list-style: none;
   border: 0;
+}
+
+:root {
+  --primary: #007bff;
+  --secondary: #6c757d;
+  --success: #28a745;
+  --info: #17a2b8;
+  --warning: #ffc107;
+  --danger: #dc3545;
+}
+
+.item {
+  width: 100px;
+  height: 100px;
+  background-color: aqua;
+  margin: 2%;
+}
+
+/* PADDING :: superior | horizontal | inferior */
+nav {
+  padding: 1em 1em 1.0em;
+}
+
+.item {
+  -webkit-box-shadow: 0.7rem 0.8rem 0.9rem -1rem  #666;
+          box-shadow: 0.7rem 0.8rem 0.9rem -1rem  #666;
+  /* 
+    SHADOW :: 
+        1º valor : Desloca HORIZONTAL |   Positivo-a-direita | Negativo-a-esquerda |
+        2º valor : Desloca VERTICAL |   Positivo-pra Baixo | Negativo-pra Cima
+        3º valor : filtro Blur | |
+        4º valor : expansao do Blur | |
+        5º valor : Cor | |
+
+    */
+}
+
+#wrapper {
+  width: 90vw;
+  margin: 0 auto;
+}
+
+nav {
+  background-color: blue;
+}
+
+.item {
+  width: 100px;
+  height: 100px;
+  background-color: aqua;
+  margin: 2%;
+}
+
+/* PADDING :: superior | horizontal | inferior */
+nav {
+  padding: 1em 1em 1.0em;
+}
+
+.item {
+  -webkit-box-shadow: 0.7rem 0.8rem 0.9rem -1rem  #666;
+          box-shadow: 0.7rem 0.8rem 0.9rem -1rem  #666;
+  /* 
+    SHADOW :: 
+        1º valor : Desloca HORIZONTAL |   Positivo-a-direita | Negativo-a-esquerda |
+        2º valor : Desloca VERTICAL |   Positivo-pra Baixo | Negativo-pra Cima
+        3º valor : filtro Blur | |
+        4º valor : expansao do Blur | |
+        5º valor : Cor | |
+
+    */
 }
 
 :root {

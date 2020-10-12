@@ -21,7 +21,7 @@ $third-color: #c8d146;
     --danger: #dc3545;
   }
 
-  // _function--color
+  // _function--color-muda cor do texto de acordo com primary color
   
   @function set-text-color($color) {
     @if lightness($color) > 70 {

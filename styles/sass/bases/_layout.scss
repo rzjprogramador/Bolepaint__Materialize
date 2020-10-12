@@ -1,0 +1,19 @@
+@import "./cores";
+@import "./utils";
+
+//=============== LAYOUTS =====================
+
+#wrapper {
+    width: 90vw;
+    margin: 0 auto;
+    
+}
+nav {
+    background-color: blue;
+
+        @extend %padding;
+}
+.item {
+    @extend %boxEffect;
+    @extend %test;
+}
