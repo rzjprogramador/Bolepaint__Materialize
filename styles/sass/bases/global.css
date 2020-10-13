@@ -11,27 +11,41 @@ body {
 }
 
 :root {
-  --body-bg: #fafafa;
-  --body-color: #555;
-  --link-color: #222;
-  --link-color-hover: #ec5840;
-  --primary-bg: #38517E;
-  --color-text: #fafafa;
-  --link-color-hover-bg-primary: #b4dce7;
-  --second-bg: #ec5840;
-  --second-color-text: #fafafa;
+  --body-bg:	#fafafa;
+  --body-color:	#555;
+  --primary-bg:	#2980b9;
+  --primary-color-text:	#fafafa;
+  --link-color-hover-primary-bg:	#b4dce7;
+  --primary-bg-effect:	#b4dce7;
+  --second-bg:	#ec5840;
+  --second-color-text:	#fafafa;
+  --link-color-hover-second-bg:	#ec5840;
+  --second-bg-effect:	var(--second-bg);
+  --third-bg:	#880e4f;
+  --third-color-text:	#f2f2f2;
+  --link-color-hover-third-bg:	#f2f2f2;
+  --third-bg-effect:	#b4dce7;
+  --link-color:	#222;
+  --link-color-hover:	 #ec5840;
 }
 
 .dark-mode:root {
-  --body-bg: #212529;
-  --body-color: #899095;
-  --link-color: #dee2e6;
-  --link-color-hover: #3cc368;
-  --primary-bg: #333;
-  --color-text: #fafafa;
-  --link-color-hover-bg-primary: #b4dce7;
-  --second-bg: #38517E;
-  --second-color-text: #fafafa;
+  --body-bg:	#212529;
+  --body-color:	#f2f2f2;
+  --primary-bg:	#333;
+  --primary-color-text:	#fafafa;
+  --link-color-hover-primary-bg:	#b4dce7;
+  --primary-bg-effect:	#b4dce7;
+  --second-bg:	#ec5840;
+  --second-color-text:	#fafafa;
+  --link-color-hover-second-bg:	#3cc368;
+  --second-bg-effect:	var(--second-bg);
+  --third-bg:	#880e4f;
+  --third-color-text:	#f2f2f2;
+  --link-color-hover-third-bg:	#f2f2f2;
+  --third-bg-effect:	#b4dce7;
+  --link-color:	#222;
+  --link-color-hover:	 #ec5840;
 }
 
 body {
@@ -53,7 +67,7 @@ a:hover {
 
 nav {
   background-color: var(--primary-bg);
-  color: var(--color-text);
+  color: var(--primary-color-text);
 }
 
 .btn, .btn-large {
@@ -82,7 +96,7 @@ nav {
 }
 
 nav a {
-  color: var(--color-text);
+  color: var(--primary-color-text);
 }
 
 nav a:hover {
@@ -115,27 +129,41 @@ nav a:hover {
 }
 
 :root {
-  --body-bg: #fafafa;
-  --body-color: #555;
-  --link-color: #222;
-  --link-color-hover: #ec5840;
-  --primary-bg: #38517E;
-  --color-text: #fafafa;
-  --link-color-hover-bg-primary: #b4dce7;
-  --second-bg: #ec5840;
-  --second-color-text: #fafafa;
+  --body-bg:	#fafafa;
+  --body-color:	#555;
+  --primary-bg:	#2980b9;
+  --primary-color-text:	#fafafa;
+  --link-color-hover-primary-bg:	#b4dce7;
+  --primary-bg-effect:	#b4dce7;
+  --second-bg:	#ec5840;
+  --second-color-text:	#fafafa;
+  --link-color-hover-second-bg:	#ec5840;
+  --second-bg-effect:	var(--second-bg);
+  --third-bg:	#880e4f;
+  --third-color-text:	#f2f2f2;
+  --link-color-hover-third-bg:	#f2f2f2;
+  --third-bg-effect:	#b4dce7;
+  --link-color:	#222;
+  --link-color-hover:	 #ec5840;
 }
 
 .dark-mode:root {
-  --body-bg: #212529;
-  --body-color: #899095;
-  --link-color: #dee2e6;
-  --link-color-hover: #3cc368;
-  --primary-bg: #333;
-  --color-text: #fafafa;
-  --link-color-hover-bg-primary: #b4dce7;
-  --second-bg: #38517E;
-  --second-color-text: #fafafa;
+  --body-bg:	#212529;
+  --body-color:	#f2f2f2;
+  --primary-bg:	#333;
+  --primary-color-text:	#fafafa;
+  --link-color-hover-primary-bg:	#b4dce7;
+  --primary-bg-effect:	#b4dce7;
+  --second-bg:	#ec5840;
+  --second-color-text:	#fafafa;
+  --link-color-hover-second-bg:	#3cc368;
+  --second-bg-effect:	var(--second-bg);
+  --third-bg:	#880e4f;
+  --third-color-text:	#f2f2f2;
+  --link-color-hover-third-bg:	#f2f2f2;
+  --third-bg-effect:	#b4dce7;
+  --link-color:	#222;
+  --link-color-hover:	 #ec5840;
 }
 
 body {
@@ -157,7 +185,7 @@ a:hover {
 
 nav {
   background-color: var(--primary-bg);
-  color: var(--color-text);
+  color: var(--primary-color-text);
 }
 
 .btn, .btn-large {
@@ -166,27 +194,41 @@ nav {
 }
 
 :root {
-  --body-bg: #fafafa;
-  --body-color: #555;
-  --link-color: #222;
-  --link-color-hover: #ec5840;
-  --primary-bg: #38517E;
-  --color-text: #fafafa;
-  --link-color-hover-bg-primary: #b4dce7;
-  --second-bg: #ec5840;
-  --second-color-text: #fafafa;
+  --body-bg:	#fafafa;
+  --body-color:	#555;
+  --primary-bg:	#2980b9;
+  --primary-color-text:	#fafafa;
+  --link-color-hover-primary-bg:	#b4dce7;
+  --primary-bg-effect:	#b4dce7;
+  --second-bg:	#ec5840;
+  --second-color-text:	#fafafa;
+  --link-color-hover-second-bg:	#ec5840;
+  --second-bg-effect:	var(--second-bg);
+  --third-bg:	#880e4f;
+  --third-color-text:	#f2f2f2;
+  --link-color-hover-third-bg:	#f2f2f2;
+  --third-bg-effect:	#b4dce7;
+  --link-color:	#222;
+  --link-color-hover:	 #ec5840;
 }
 
 .dark-mode:root {
-  --body-bg: #212529;
-  --body-color: #899095;
-  --link-color: #dee2e6;
-  --link-color-hover: #3cc368;
-  --primary-bg: #333;
-  --color-text: #fafafa;
-  --link-color-hover-bg-primary: #b4dce7;
-  --second-bg: #38517E;
-  --second-color-text: #fafafa;
+  --body-bg:	#212529;
+  --body-color:	#f2f2f2;
+  --primary-bg:	#333;
+  --primary-color-text:	#fafafa;
+  --link-color-hover-primary-bg:	#b4dce7;
+  --primary-bg-effect:	#b4dce7;
+  --second-bg:	#ec5840;
+  --second-color-text:	#fafafa;
+  --link-color-hover-second-bg:	#3cc368;
+  --second-bg-effect:	var(--second-bg);
+  --third-bg:	#880e4f;
+  --third-color-text:	#f2f2f2;
+  --link-color-hover-third-bg:	#f2f2f2;
+  --third-bg-effect:	#b4dce7;
+  --link-color:	#222;
+  --link-color-hover:	 #ec5840;
 }
 
 body {
@@ -208,7 +250,7 @@ a:hover {
 
 nav {
   background-color: var(--primary-bg);
-  color: var(--color-text);
+  color: var(--primary-color-text);
 }
 
 .btn, .btn-large {

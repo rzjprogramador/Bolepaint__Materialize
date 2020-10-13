@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "ACAA,OAAO,CAAP,iGAAO",
+    "mappings": "ACAA,OAAO,CAAP,8GAAO",
     "sources": [
         "global.scss",
         "_bootstrap.scss"
