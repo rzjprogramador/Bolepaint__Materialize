@@ -17,6 +17,9 @@ body {
   --link-color-hover: #ec5840;
   --primary-bg: #38517E;
   --color-text: #fafafa;
+  --link-color-hover-bg-primary: #b4dce7;
+  --second-bg: #ec5840;
+  --second-color-text: #fafafa;
 }
 
 .dark-mode:root {
@@ -26,6 +29,9 @@ body {
   --link-color-hover: #3cc368;
   --primary-bg: #333;
   --color-text: #fafafa;
+  --link-color-hover-bg-primary: #b4dce7;
+  --second-bg: #38517E;
+  --second-color-text: #fafafa;
 }
 
 body {
@@ -50,11 +56,17 @@ nav {
   color: var(--color-text);
 }
 
-/* PADDING :: superior | horizontal | inferior */
-nav {
-  padding: 1em 1em 1.0em;
+.btn, .btn-large {
+  background-color: var(--second-bg);
+  color: var(--second-color-text);
 }
 
+.nav-wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* PADDING :: superior | horizontal | inferior */
 .item {
   -webkit-box-shadow: 0.7rem 0.8rem 0.9rem -1rem  #666;
           box-shadow: 0.7rem 0.8rem 0.9rem -1rem  #666;
@@ -69,20 +81,25 @@ nav {
     */
 }
 
-#wrapper {
-  width: 100%;
+nav a {
+  color: var(--color-text);
 }
 
-nav {
-  color: #fff;
-  background-color: blue;
+nav a:hover {
+  color: var(--link-color-hover-bg-primary);
+}
+
+.btn:hover, .btn-large:hover {
+  background-color: var(--second-bg);
+  color: var(--second-color-text);
+}
+
+.nav-wrapper {
+  width: 90%;
+  margin: 0 auto;
 }
 
 /* PADDING :: superior | horizontal | inferior */
-nav {
-  padding: 1em 1em 1.0em;
-}
-
 .item {
   -webkit-box-shadow: 0.7rem 0.8rem 0.9rem -1rem  #666;
           box-shadow: 0.7rem 0.8rem 0.9rem -1rem  #666;
@@ -104,6 +121,9 @@ nav {
   --link-color-hover: #ec5840;
   --primary-bg: #38517E;
   --color-text: #fafafa;
+  --link-color-hover-bg-primary: #b4dce7;
+  --second-bg: #ec5840;
+  --second-color-text: #fafafa;
 }
 
 .dark-mode:root {
@@ -113,6 +133,9 @@ nav {
   --link-color-hover: #3cc368;
   --primary-bg: #333;
   --color-text: #fafafa;
+  --link-color-hover-bg-primary: #b4dce7;
+  --second-bg: #38517E;
+  --second-color-text: #fafafa;
 }
 
 body {
@@ -135,6 +158,11 @@ a:hover {
 nav {
   background-color: var(--primary-bg);
   color: var(--color-text);
+}
+
+.btn, .btn-large {
+  background-color: var(--second-bg);
+  color: var(--second-color-text);
 }
 
 :root {
@@ -144,6 +172,9 @@ nav {
   --link-color-hover: #ec5840;
   --primary-bg: #38517E;
   --color-text: #fafafa;
+  --link-color-hover-bg-primary: #b4dce7;
+  --second-bg: #ec5840;
+  --second-color-text: #fafafa;
 }
 
 .dark-mode:root {
@@ -153,6 +184,9 @@ nav {
   --link-color-hover: #3cc368;
   --primary-bg: #333;
   --color-text: #fafafa;
+  --link-color-hover-bg-primary: #b4dce7;
+  --second-bg: #38517E;
+  --second-color-text: #fafafa;
 }
 
 body {
@@ -175,6 +209,11 @@ a:hover {
 nav {
   background-color: var(--primary-bg);
   color: var(--color-text);
+}
+
+.btn, .btn-large {
+  background-color: var(--second-bg);
+  color: var(--second-color-text);
 }
 
 .flexCenter {

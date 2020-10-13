@@ -2,6 +2,10 @@
 //=============== PLACEHOLDERS =====================
 %test {width: 100px; height: 100px; background-color: aqua; margin: 2%;}
 
+%container90 {
+    width: 90%;
+    margin: 0 auto;
+}
 /* PADDING :: superior | horizontal | inferior */
 %padding {
     padding: 1em 1em 1.0em; 

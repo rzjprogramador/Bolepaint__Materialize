@@ -3,17 +3,36 @@
 
 //=============== LAYOUTS =====================
 
-#wrapper {
-    width: 100%;
-}
 nav {
+    
     @extend %bg-primary;
-    @extend %padding;
 
-    color: #fff;
-    background-color: blue;
+    a {
+        color: var(--color-text);
+    
+        &:hover {
+            color: var(--link-color-hover-bg-primary);
+    
+        }
+    
+    }
       
 }
+// MATERIALIZE CUSTOM
+.nav-wrapper {
+    @extend %container90;
+}
+.btn, .btn-large {
+    @extend %bg-second;
+
+    &:hover {
+        background-color: var(--second-bg);
+        color: var(--second-color-text);
+
+    }
+
+}
+
 .item {
     @extend %boxEffect;
     // @extend %test;
