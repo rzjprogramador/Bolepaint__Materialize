@@ -35,7 +35,7 @@ body {
   --primary-bg:	#333;
   --primary-color-text:	#fafafa;
   --link-color-hover-primary-bg:	#b4dce7;
-  --primary-bg-effect:	#b4dce7;
+  --primary-bg-effect:	#4b4b4b;
   --second-bg:	#ec5840;
   --second-color-text:	#fafafa;
   --link-color-hover-second-bg:	#3cc368;
@@ -153,7 +153,7 @@ nav a:hover {
   --primary-bg:	#333;
   --primary-color-text:	#fafafa;
   --link-color-hover-primary-bg:	#b4dce7;
-  --primary-bg-effect:	#b4dce7;
+  --primary-bg-effect:	#4b4b4b;
   --second-bg:	#ec5840;
   --second-color-text:	#fafafa;
   --link-color-hover-second-bg:	#3cc368;
@@ -218,7 +218,7 @@ nav {
   --primary-bg:	#333;
   --primary-color-text:	#fafafa;
   --link-color-hover-primary-bg:	#b4dce7;
-  --primary-bg-effect:	#b4dce7;
+  --primary-bg-effect:	#4b4b4b;
   --second-bg:	#ec5840;
   --second-color-text:	#fafafa;
   --link-color-hover-second-bg:	#3cc368;
