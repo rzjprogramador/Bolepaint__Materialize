@@ -1,10 +1,9 @@
 {
     "version": 3,
-    "mappings": "ACAA,OAAO,CAAP,iGAAO;ACCH,OAAO,CAAC,uDAAI;AAKd,AAAA,IAAI,CAAC;EACH,WAAW,EAAE,uBAAuB;CACrC",
+    "mappings": "ACAA,OAAO,CAAP,iGAAO",
     "sources": [
         "global.scss",
-        "_bootstrap.scss",
-        "_fontes.scss"
+        "_bootstrap.scss"
     ],
     "names": [],
     "file": "global.css"

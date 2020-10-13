@@ -7,9 +7,12 @@
     width: 100%;
 }
 nav {
-    
+    @extend %bg-primary;
+    @extend %padding;
 
-        @extend %padding;
+    color: #fff;
+    background-color: blue;
+      
 }
 .item {
     @extend %boxEffect;
